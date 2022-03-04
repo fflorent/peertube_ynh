@@ -29,6 +29,7 @@ domain=$YNH_APP_ARG_DOMAIN
 path_url="/"
 admin=$YNH_APP_ARG_ADMIN
 is_public=$YNH_APP_ARG_IS_PUBLIC
+enable_trackers=$YNH_APP_ARG_ENABLE_TRACKERS
 admin_email=$(ynh_user_get_info --username=$admin --key="mail")
 admin_pass=$(ynh_string_random --length=24)
 

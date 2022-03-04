@@ -205,7 +205,7 @@ security:
 
 tracker:
   # If you disable the tracker, you disable the P2P aspect of PeerTube
-  enabled: true
+  enabled: __ENABLE_TRACKERS__
   # Only handle requests on your videos
   # If you set this to false it means you have a public tracker
   # Then, it is possible that clients overload your instance with external torrents

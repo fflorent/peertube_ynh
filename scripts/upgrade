@@ -29,6 +29,7 @@ datadir=$(ynh_app_setting_get --app=$app --key=datadir)
 admin=$(ynh_app_setting_get --app=$app --key=admin)
 admin_email=$(ynh_user_get_info --username=$admin --key="mail")
 redis_db=$(ynh_app_setting_get --app=$app --key=redis_db)
+enable_trackers=$(ynh_app_setting_get --app=$app --key=enable_trackers)
 
 #=================================================
 # CHECK VERSION

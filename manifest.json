@@ -46,6 +46,15 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
+            },
+            {
+                "name": "enable_trackers",
+                "type": "boolean",
+                "default": true,
+                "ask": {
+                    "en": "Enable the trackers (P2P broadcasting in browsers)?",
+                    "fr": "Activer les trackers (diffusion en pair à pair par les navigateurs) ?"
+                }
             }
         ]
     }
